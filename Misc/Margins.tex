@@ -1,0 +1,78 @@
+\documentclass[letterpaper]{article}
+\usepackage{tikz}
+\usepackage[left=3.84cm, right=2.57cm, top=4.0cm, bottom=2.54cm, headheight=4.54cm]{geometry}
+\definecolor{dlsu-green}{HTML}{006633}
+\usepackage{eso-pic}
+\usepackage{lipsum}
+
+\AddToShipoutPictureBG{
+\begin{tikzpicture}[remember picture, overlay]
+  %straight up
+    \draw [color=red]         (0,0) rectangle (1,1);
+    \draw [color=green]       (0,1) rectangle (1,2);
+    \draw [color=blue]        (0,2) rectangle (1,3);
+    \draw [color=black]       (0,3) rectangle (1,4);
+    \draw [color=yellow]      (0,4) rectangle (1,5);
+    \draw [color=red]         (0,5) rectangle (1,6);
+    \draw [color=green]       (0,6) rectangle (1,7);
+    \draw [color=blue]        (0,7) rectangle (1,8);
+    \draw [color=black]       (0,8) rectangle (1,9);
+    \draw [color=yellow]      (0,9) rectangle (1,10);
+    \draw [color=red]         (0,10) rectangle (1,11);
+    \draw [color=green]       (0,11) rectangle (1,12);
+    \draw [color=blue]        (0,12) rectangle (1,13);
+    \draw [color=black]       (0,13) rectangle (1,14);
+    \draw [color=yellow]      (0,14) rectangle (1,15);
+    \draw [color=red]         (0,15) rectangle (1,16);
+    \draw [color=green]       (0,16) rectangle (1,17);
+    \draw [color=blue]        (0,17) rectangle (1,18);
+    \draw [color=black]       (0,18) rectangle (1,19);
+    \draw [color=yellow]      (0,19) rectangle (1,20);
+    \draw [color=red]         (0,20) rectangle (1,21);
+    \draw [color=green]       (0,21) rectangle (1,22);
+    \draw [color=blue]        (0,22) rectangle (1,23);
+    \draw [color=black]       (0,23) rectangle (1,24);
+    \draw [color=yellow]      (0,24) rectangle (1,25);
+    \draw [color=red]         (0,25) rectangle (1,26);
+    \draw [color=green]       (0,26) rectangle (1,27);
+    \draw [color=blue]        (0,27) rectangle (1,27.94);
+    %left to right
+    \draw [color=green]       (0,0) rectangle (-0.145,1);
+    \draw [color=yellow]      (1,0) rectangle (2,1);
+    \draw [color=black]       (2,0) rectangle (3,1);
+    \draw [color=blue]        (3,0) rectangle (4,1);
+    \draw [color=green]       (4,0) rectangle (5,1);
+    \draw [color=red]         (5,0) rectangle (6,1);
+    \draw [color=yellow]      (6,0) rectangle (7,1);
+    \draw [color=black]       (7,0) rectangle (8,1);
+    \draw [color=blue]        (8,0) rectangle (9,1);
+    \draw [color=green]       (9,0) rectangle (10,1);
+    \draw [color=yellow]      (10,0) rectangle (11,1);
+    \draw [color=black]       (11,0) rectangle (12,1);
+    \draw [color=blue]        (12,0) rectangle (13,1);
+    \draw [color=green]       (13,0) rectangle (14,1);
+    \draw [color=red]         (14,0) rectangle (15,1);
+    \draw [color=yellow]      (15,0) rectangle (16,1);
+    \draw [color=black]       (16,0) rectangle (17,1);
+    \draw [color=blue]        (17,0) rectangle (18,1);
+    \draw [color=green]       (18,0) rectangle (19,1);
+    \draw [color=red]         (19,0) rectangle (20,1);
+    \draw [color=yellow]      (20,0) rectangle (21,1);
+    \draw [color=black]       (21,0) rectangle (21.445,1);
+
+
+%DLSU Template Margins
+    %Horizontal Lines
+        \draw [color=dlsu-green]       (-0.2,25.4) rectangle (25.4,25.4);
+        \draw [color=dlsu-green]       (-0.2,23.4) rectangle (23.4,23.4);
+        \draw [color=dlsu-green]       (-0.2,2.54) rectangle (21.5,2.54);
+    %Vertical Lines
+        \draw [color=dlsu-green]       (3.665,-0.1) rectangle (3.665,28);
+        \draw [color=dlsu-green]       (18.905,-0.1) rectangle (18.905,28);  
+\end{tikzpicture}
+
+}
+\begin{document}
+\lipsum[]
+
+\end{document}
